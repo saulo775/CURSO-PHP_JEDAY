@@ -1,5 +1,8 @@
 <?php
-	include('config.php');
+
+use Facebook\Exceptions\FacebookResponseException;
+
+include('config.php');
 	if(isset($accessToken)){
 
 
